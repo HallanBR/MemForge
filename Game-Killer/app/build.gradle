@@ -1,0 +1,14 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.gamekiller.memoryroot'
+    compileSdk 36
+    buildToolsVersion '36.0.0'
+    defaultConfig {
+        applicationId 'com.gamekiller.memoryroot'
+        minSdk 26
+        targetSdk 28
+        versionCode 6
+        versionName '1.5'
+    }
+}
